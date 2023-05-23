@@ -1,0 +1,22 @@
+{
+	"name": "boletophp/boletophp",
+	"version": "1",
+	"type": "project",
+	"homepage": "https://meusite.com.br/",
+	"license": "Commercial",
+	"authors": [
+		{
+			"name": "Joao Assef",
+			"email": "joaoassef@gmail.com"
+		}
+	],
+	"require": {
+		"php": ">=7.0.0",
+		"openboleto/openboleto": "dev-master"
+	},
+	"autoload": {
+        "psr-0": {
+            "Zend\\": "vendor"
+        }
+    }
+}
