@@ -14,9 +14,16 @@ $boleto->setValor(23.00);
 $boleto->setSequencial(1234);
 $boleto->setSacado($sacado);
 $boleto->setCedente($cedente);
-$boleto->setAgencia(0715);
+$boleto->setAgencia(0);
 $boleto->setCarteira(1);
 $boleto->setConta(74494);
+
+$boleto->setInstrucoes("Aqui vai as instruções");
+ //$boleto->getCodigoBanco(0715);
+// $boleto->setAgenciaDv(8);
+$boleto->setEspecieDoc("DMI");
+$boleto->setLogoPath("/boletoPhp/assets/images/logo_220x65.png");
+
 
 echo $boleto->getOutput();
 
