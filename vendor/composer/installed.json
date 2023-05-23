@@ -1,0 +1,63 @@
+{
+    "packages": [
+        {
+            "name": "openboleto/openboleto",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/openboleto/openboleto.git",
+                "reference": "2fa22045d58ab6fd90aa472f208ed07c4134787c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/openboleto/openboleto/zipball/2fa22045d58ab6fd90aa472f208ed07c4134787c",
+                "reference": "2fa22045d58ab6fd90aa472f208ed07c4134787c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "time": "2022-12-21T02:37:12+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "OpenBoleto\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "José Frederico",
+                    "email": "contato@livetechtecnologia.com.br"
+                },
+                {
+                    "name": "Daniel Garajau",
+                    "email": "daniel@garajau.com.br"
+                },
+                {
+                    "name": "Rogerio Muniz",
+                    "email": "rogerio@quilhasoft.com.br"
+                }
+            ],
+            "description": "Biblioteca para geração de boletos bancários.",
+            "homepage": "http://github.com/openboleto/openboleto",
+            "keywords": [
+                "boleto",
+                "boleto bancario"
+            ],
+            "support": {
+                "issues": "https://github.com/openboleto/openboleto/issues",
+                "source": "https://github.com/openboleto/openboleto/tree/master"
+            },
+            "install-path": "../openboleto/openboleto"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
